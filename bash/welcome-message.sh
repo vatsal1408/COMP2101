@@ -23,7 +23,14 @@ hostname=$hostname
 a=$(date +%A)
 
 
-test  $a == Thrusday && echo $title="hello"
+test $day = Monday && title="Today is sunny day"
+test $day = Tuesday && title="Today is cloudy day"
+test $day = Wednesday && title="Very cold day"
+test $day = Thursday && title="The temp is high today"
+test $day = Friday && title="It is rainy today"
+test $day = Saturday && title="Today the weather is very unpredictable"
+test $day = Sunday && title="Today has perfect weather"
+
 
 ###############
 # Main        #
