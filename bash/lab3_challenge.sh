@@ -2,8 +2,6 @@
 
 # Virtual Server creation
 
-#test ##&& echo "lxd is not installed installing lxd ... || echo "lxd not installed"
-
 
 #Command to check whether lxd is installed or not
 
